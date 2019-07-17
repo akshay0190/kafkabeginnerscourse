@@ -2,6 +2,7 @@ package com.github.aagarawal.kafka.tutorial1;
 /**
  * @author akshay.a
  */
+
 import org.apache.kafka.clients.producer.KafkaProducer;
 import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.clients.producer.ProducerRecord;
