@@ -6,8 +6,13 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="kafka-beginners-course" />
         <module name="kafkabeginnerscourse" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="KafkaBasics" target="8" />
+      <module name="kafkabeginnerscourse" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
