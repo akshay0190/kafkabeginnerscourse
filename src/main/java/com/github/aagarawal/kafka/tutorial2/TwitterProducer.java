@@ -81,23 +81,23 @@ public class TwitterProducer {
 
 
         /** Declare the host you want to connect to, the endpoint, and authentication (basic auth or oauth) */
-        Hosts hosebirdHosts = new HttpHosts(Constants.STREAM_HOST);
-        StatusesFilterEndpoint hosebirdEndpoint = new StatusesFilterEndpoint();
+        Hosts twitterHosts = new HttpHosts(Constants.STREAM_HOST);
+        StatusesFilterEndpoint twitterEndpoint = new StatusesFilterEndpoint();
 
 
-        hosebirdEndpoint.trackTerms(terms);
+        twitterEndpoint.trackTerms(terms);
 
         // These secrets should be read from a config file
-        Authentication hosebirdAuth = new OAuth1(consumerKey, consumerSecret, token, secret);
+        Authentication twitterAuth = new OAuth1(consumerKey, consumerSecret, token, secret);
 
         ClientBuilder builder = new ClientBuilder()
-                .name("Hosebird-Client-01")                              // optional: mainly for the logs
-                .hosts(hosebirdHosts)
-                .authentication(hosebirdAuth)
-                .endpoint(hosebirdEndpoint)
+                .name("Twitter-Client-01")                              // optional: mainly for the logs
+                .hosts(twitterHosts)
+                .authentication(twitterAuth)
+                .endpoint(twitterEndpoint)
                 .processor(new StringDelimitedProcessor(msgQueue));
-        Client hosebirdClient = builder.build();
-        return hosebirdClient;
+        Client twitterClient = builder.build();
+        return twitterClient;
 
 
     }
