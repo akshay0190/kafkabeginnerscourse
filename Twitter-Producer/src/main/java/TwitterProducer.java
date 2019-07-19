@@ -1,5 +1,3 @@
-package com.github.aagarawal.kafka.tutorial2;
-
 import com.google.common.collect.Lists;
 import com.twitter.hbc.ClientBuilder;
 import com.twitter.hbc.core.Client;
@@ -26,7 +24,7 @@ import java.util.concurrent.TimeUnit;
  */
 public class TwitterProducer {
     Logger logger = LoggerFactory.getLogger((TwitterProducer.class.getName()));
-    List<String> terms = Lists.newArrayList("Kafka");
+    List<String> terms = Lists.newArrayList("Bitcoin");
     private String consumerKey = "QTXhijv8U0edJGs1DbExWeozB";
     private String consumerSecret = "KUI9BKWvZMrKPcHUMQFZZbQDiUDsOPsyGSQlaTAeGiAU31mTKl";
     private String token = "1135949416928632833-QP564X5MjXq26RpKeDL9UytA4q2w13";
@@ -103,7 +101,7 @@ public class TwitterProducer {
     }
 
     public KafkaProducer<String, String> createKafkaProducer() {
-        String bootstrapServers = "127.0.0.1:9092";
+        String bootstrapServers = "35.180.97.47:9092";
         Properties properties = new Properties();
         properties.setProperty(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, bootstrapServers);
         properties.setProperty(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName());

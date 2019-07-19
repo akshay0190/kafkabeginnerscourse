@@ -1,4 +1,3 @@
-package com.github.aagarawal.kafka.tutorial1;
 /**
  * @author akshay.a
  */

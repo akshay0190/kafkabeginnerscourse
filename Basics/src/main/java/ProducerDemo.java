@@ -1,4 +1,3 @@
-package com.github.aagarawal.kafka.tutorial1;
 /**
  * @author akshay.a
  */
@@ -14,7 +13,7 @@ public class ProducerDemo {
 
     public static void main(String[] args) {
         //create producer properties
-        String bootstrapServers = "127.0.0.1:9092";
+        String bootstrapServers = "35.180.97.47:9092";
         Properties properties = new Properties();
         properties.setProperty(ProducerConfig.BOOTSTRAP_SERVERS_CONFIG, bootstrapServers);
         properties.setProperty(ProducerConfig.KEY_SERIALIZER_CLASS_CONFIG, StringSerializer.class.getName());

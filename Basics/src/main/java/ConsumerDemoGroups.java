@@ -1,5 +1,3 @@
-package com.github.aagarawal.kafka.tutorial1;
-
 import org.apache.kafka.clients.consumer.ConsumerConfig;
 import org.apache.kafka.clients.consumer.ConsumerRecord;
 import org.apache.kafka.clients.consumer.ConsumerRecords;
@@ -15,12 +13,12 @@ import java.util.Properties;
 /**
  * @author akshay.a
  */
-public class ConsumerDemo {
+public class ConsumerDemoGroups {
 
     public static void main(String[] args) {
-        Logger logger = LoggerFactory.getLogger(ConsumerDemo.class.getName());
+        Logger logger = LoggerFactory.getLogger(ConsumerDemoGroups.class.getName());
         String bootstrapServers = "127.0.0.1:9092";
-        String groupId = "my-fourth-application";
+        String groupId = "my-fifth-application";
         String topic = "first_topic";
 
         //Create Consumer Config
