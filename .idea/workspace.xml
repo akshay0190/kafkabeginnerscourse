@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c3d0ad59-f30b-40cf-960b-1a4a440d7800" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/aagarawal/kafka/tutorial1/ConsumerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/src/main/java/ConsumerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/aagarawal/kafka/tutorial1/ConsumerDemoGroups.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/src/main/java/ConsumerDemoGroups.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/aagarawal/kafka/tutorial1/ConsumerDemoWithThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/src/main/java/ConsumerDemoWithThread.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/aagarawal/kafka/tutorial1/ProducerDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/src/main/java/ProducerDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/aagarawal/kafka/tutorial1/ProducerDemoWithCallback.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/src/main/java/ProducerDemoWithCallback.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/aagarawal/kafka/tutorial1/ProducerDemoWithKeys.java" beforeDir="false" afterPath="$PROJECT_DIR$/Basics/src/main/java/ProducerDemoWithKeys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/aagarawal/kafka/tutorial2/TwitterProducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/Twitter-Producer/src/main/java/TwitterProducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/github/aagarawal/kafka/tutorial3/ElasticSearchConsumer.java" beforeDir="false" afterPath="$PROJECT_DIR$/ElasticSearchConsumer/src/main/java/ElasticSearchConsumer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/aagarawal/kafka/tutorial1/ProducerDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/aagarawal/kafka/tutorial1/ProducerDemoWithCallback$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/aagarawal/kafka/tutorial1/ProducerDemoWithCallback.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/aagarawal/kafka/tutorial1/ProducerDemoWithKeys$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/github/aagarawal/kafka/tutorial1/ProducerDemoWithKeys.class" beforeDir="false" />
-    </list>
+    <list default="true" id="c3d0ad59-f30b-40cf-960b-1a4a440d7800" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/Basics/target/" />
@@ -34,21 +17,7 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ElasticSearchConsumer/src/main/java/ElasticSearchConsumer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1309">
-              <caret line="77" column="30" lean-forward="true" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2751#2767#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -162,43 +131,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="kafkabeginnerscourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kafkabeginnerscourse" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kafkabeginnerscourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kafkabeginnerscourse" type="462c0819:PsiDirectoryNode" />
-              <item name="ElasticSearchConsumer" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kafkabeginnerscourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kafkabeginnerscourse" type="462c0819:PsiDirectoryNode" />
-              <item name="ElasticSearchConsumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kafkabeginnerscourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kafkabeginnerscourse" type="462c0819:PsiDirectoryNode" />
-              <item name="ElasticSearchConsumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="kafkabeginnerscourse" type="b2602c69:ProjectViewProjectNode" />
-              <item name="kafkabeginnerscourse" type="462c0819:PsiDirectoryNode" />
-              <item name="ElasticSearchConsumer" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
+      <pane id="ProjectPane" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -343,7 +276,14 @@
       <option name="project" value="LOCAL" />
       <updated>1563458060533</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Refactor, Elastic Search">
+      <created>1563549969737</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1563549969737</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -357,7 +297,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="3278" y="-8" width="1936" height="1066" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26279318" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -368,7 +307,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" visible="true" weight="0.3279743" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4989339" weight="0.3279743" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.39978564" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -420,7 +359,8 @@
     <MESSAGE value="Added Twitter Dependency" />
     <MESSAGE value="Added consumer" />
     <MESSAGE value="Update" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update" />
+    <MESSAGE value="Refactor, Elastic Search" />
+    <option name="LAST_COMMIT_MESSAGE" value="Refactor, Elastic Search" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
@@ -522,13 +462,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Twitter-Producer/src/main/java/TwitterProducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="87" column="42" lean-forward="true" selection-start-line="87" selection-start-column="42" selection-end-line="87" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Twitter-Producer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="578">
@@ -557,12 +490,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Twitter-Producer/src/main/java/TwitterProducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="87" column="42" lean-forward="true" selection-start-line="87" selection-start-column="42" selection-end-line="87" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ElasticSearchConsumer/src/main/java/ElasticSearchConsumer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
+        <state relative-caret-position="884">
           <caret line="77" column="30" lean-forward="true" selection-start-line="77" selection-start-column="30" selection-end-line="77" selection-end-column="30" />
           <folding>
-            <element signature="imports" expanded="true" />
             <element signature="e#2751#2767#0" expanded="true" />
           </folding>
         </state>
